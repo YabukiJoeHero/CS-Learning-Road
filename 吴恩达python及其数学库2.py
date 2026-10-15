@@ -61,3 +61,12 @@ import pandas as pd
 # d = 6*np.random.rand(100)-4
 # plt.plot(d,'r.')
 # plt.show()
+
+# #绘制函数
+# # x = np.arange(0,2,0.1)
+# x = np.linspace(0,1,100)
+# print(x)
+# y = x**x
+# plt.plot(x,y,'r-',linewidth = 1) #可简写为lw
+# plt.show()
+
