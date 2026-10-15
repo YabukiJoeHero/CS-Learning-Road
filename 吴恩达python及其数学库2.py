@@ -44,12 +44,20 @@ import pandas as pd
 # plt.hist(z,bins=20,color='m',edgecolor='k')
 # plt.show()
 
-d = np.random.rand(3,4)
-print(d)
-print(type(d)) #<class 'numpy.ndarray'>dimensional array多维数组
-data = pd.DataFrame(data = d,columns = list('abcd'))
-print('=' *50)
-print(data)
-print(type(data)) #<class 'pandas.core.frame.DataFrame'>DataFrame数据框
-print(data['a']) #输出a列
+# d = np.random.rand(3,4)
+# print(d)
+# print(type(d)) #<class 'numpy.ndarray'>dimensional array多维数组
+# data = pd.DataFrame(data = d,columns = list('abcd'))
+# print('=' *50)
+# print(data)
+# print(type(data)) #<class 'pandas.core.frame.DataFrame'>DataFrame数据框
+# print(data[list('ac')]) #输出a列c列
+# data.to_csv('D:/1.CS/机器学习/杂/小表格.csv',index = False,header = True)
+# print("保存成功")
 
+# #np.random.rand()默认生成0到1之间的随机数，均匀分布
+# #可利用高中数学知识，任何调不等式
+# #例如，想要[-4,2],那么可以写成：
+# d = 6*np.random.rand(100)-4
+# plt.plot(d,'r.')
+# plt.show()
